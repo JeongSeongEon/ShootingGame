@@ -1,0 +1,294 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: g_60 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MIMS정~1\AppData\Local\Temp\RSP823F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/g_60.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp"
+]
+Creating command line "cl.exe @"C:\Users\MIMS정~1\AppData\Local\Temp\RSP823F.tmp"" 
+Creating temporary file "C:\Users\MIMS정~1\AppData\Local\Temp\RSP8240.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/g_60.pdb" /debug /machine:I386 /out:"Debug/g_60.exe" /pdbtype:sept 
+".\Debug\Boss.obj"
+".\Debug\Effect.obj"
+".\Debug\g_60.obj"
+".\Debug\global.obj"
+".\Debug\Item.obj"
+".\Debug\Missile.obj"
+".\Debug\Player.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Sub.obj"
+".\Debug\g_60.res"
+]
+Creating command line "link.exe @"C:\Users\MIMS정~1\AppData\Local\Temp\RSP8240.tmp""
+<h3>Output Window</h3>
+Compiling...
+g_60.cpp
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(193) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(198) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(202) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(265) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(268) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(288) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(292) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(341) : warning C4305: '+=' : truncation from 'const double' to 'float'
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(344) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(349) : warning C4305: '+=' : truncation from 'const double' to 'float'
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(352) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(359) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(362) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(372) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(376) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(379) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(382) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(382) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(385) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(385) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(427) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(448) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(451) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(457) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(461) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(468) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(468) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(468) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(472) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(472) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(472) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(479) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(479) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(483) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(483) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(489) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(489) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(489) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(493) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(493) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(493) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(500) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(500) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(500) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(504) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(504) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(504) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(511) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(511) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(511) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(511) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(511) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(515) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(515) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(515) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(515) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(515) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(520) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(521) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(521) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(551) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(554) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(559) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(559) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(563) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(563) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(568) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(571) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(571) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(571) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(571) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(574) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(574) : warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(580) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(580) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(580) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(584) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(584) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(584) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(591) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(591) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(591) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(595) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(595) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(595) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(602) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(602) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(602) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(602) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(602) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(606) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(606) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(606) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(606) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(612) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(612) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(612) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(612) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(616) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(616) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(616) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(616) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(621) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(621) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(621) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(621) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(631) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(631) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(639) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(639) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(642) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(642) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(645) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(645) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(648) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(648) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(651) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(660) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(660) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(663) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(663) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(666) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(666) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(669) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(669) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(675) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(675) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(715) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(718) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(721) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(779) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1085) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1085) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1102) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1232) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1319) : warning C4244: '+=' : conversion from 'double' to 'long', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1320) : warning C4244: '+=' : conversion from 'double' to 'long', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1365) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1365) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1379) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1380) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1380) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1380) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1380) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1388) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1388) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1390) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1413) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1413) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1427) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1436) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1436) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1455) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1455) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1512) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1512) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1524) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1524) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1531) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1531) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1549) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1549) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1577) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1577) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1592) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1592) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1600) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1600) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1612) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1612) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1632) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1632) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1639) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1639) : warning C4244: 'argument' : conversion from 'long' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1656) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1656) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1659) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1659) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1679) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1680) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1699) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1700) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1727) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1727) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1733) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1733) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1861) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1861) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1873) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1873) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1873) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1873) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1879) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1879) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1879) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1879) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1889) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1889) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1889) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1889) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1916) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1916) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1916) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1916) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1980) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1994) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1994) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1994) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1994) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1998) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1998) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1998) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(1998) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2032) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2032) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2046) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2046) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2060) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2060) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2074) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2074) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2101) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2149) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2149) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2184) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+K:\MIMS반\전성언\제작\g_60_02_23(2)(2)\g_60.cpp(2218) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/g_60.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Boss.sbr" ".\Debug\Effect.sbr" ".\Debug\g_60.sbr" ".\Debug\global.sbr" ".\Debug\Item.sbr" ".\Debug\Missile.sbr" ".\Debug\Player.sbr" ".\Debug\Sub.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+g_60.exe - 0 error(s), 250 warning(s)
+</pre>
+</body>
+</html>
